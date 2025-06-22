@@ -2,7 +2,7 @@
 
 A modern, full-stack **social media web app** where users can share thoughts, images, follow each other, and interact through likes & comments — all crafted with performance and style in mind.
 
-![DesiVibes Banner](https://your-deployed-site.com/banner.png) <!-- Optional image -->
+![DesiVibes Banner](Screenshot 2025-06-22 223419.png) <!-- Optional image -->
 
 > ✨ "Where Desi meets Digital — your own vibrant vibe space."  
 

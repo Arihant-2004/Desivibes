@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌟 DesiVibes
 
-## Getting Started
+A modern, full-stack **social media web app** where users can share thoughts, images, follow each other, and interact through likes & comments — all crafted with performance and style in mind.
 
-First, run the development server:
+![DesiVibes Banner](https://your-deployed-site.com/banner.png) <!-- Optional image -->
+
+> ✨ "Where Desi meets Digital — your own vibrant vibe space."  
+
+---
+
+## 🔥 Features
+
+- 🔐 **Auth** powered by [Clerk](https://clerk.dev) (Google, Email, etc.)
+- 📝 **Create posts** with text and image uploads
+- ❤️ **Like & comment** on posts
+- 👥 **Follow / Unfollow** other users
+- 🔔 **Real-time notifications**
+- 🧾 **User profile pages** with tabs for Posts & Liked content
+- 🎨 **Elegant UI** with TailwindCSS & ShadCN components
+- 📱 Fully **responsive & mobile-friendly**
+- 📂 **Image uploads** with UploadThing + Next.js App Router
+- ⚡ Server actions & caching with `revalidatePath` for blazing fast UX
+
+---
+
+## 🧠 Tech Stack
+
+| Tech         | Description                               |
+|--------------|-------------------------------------------|
+| Next.js 14   | App Router, Server Actions, RSC           |
+| TypeScript   | End-to-end type safety                    |
+| TailwindCSS  | Utility-first styling                     |
+| ShadCN UI    | Accessible & modern UI components         |
+| Clerk Auth   | Drop-in authentication & user management |
+| UploadThing  | Secure & customizable file uploads        |
+| Prisma       | Type-safe ORM for PostgreSQL              |
+| Render       | Hosting platform for backend & frontend   |
+
+---
+
+## 🖼️ Demo
+
+🌍 [Live Website](https://desivibes.onrender.com)
+
+> Login with Clerk and start vibing 🎉
+
+---
+
+## 🚀 Getting Started
+
+Clone & run locally:
 
 ```bash
+git clone https://github.com/yourusername/desivibes.git
+
+
+🤝 Contributing
+Open to PRs and contributions! Feel free to fork, build cool features, and raise issues.
+
+🧑‍💻 Author
+Made with ❤️ by Arihant Hirawat
+cd desivibes
+npm install
+npx prisma generate
+npx prisma migrate dev
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

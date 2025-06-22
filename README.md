@@ -45,6 +45,12 @@ A modern, full-stack **social media web app** where users can share thoughts, im
 > Login with Clerk and start vibing 🎉
 
 ---
+##🤝 Contributing
+Open to PRs and contributions! Feel free to fork, build cool features, and raise issues.
+---
+##🧑‍💻 Author
+Made with ❤️ by Arihant Hirawat
+---
 
 ## 🚀 Getting Started
 
@@ -54,11 +60,7 @@ Clone & run locally:
 git clone https://github.com/yourusername/desivibes.git
 
 
-🤝 Contributing
-Open to PRs and contributions! Feel free to fork, build cool features, and raise issues.
 
-🧑‍💻 Author
-Made with ❤️ by Arihant Hirawat
 cd desivibes
 npm install
 npx prisma generate
